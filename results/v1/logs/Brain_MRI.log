@@ -1,0 +1,166 @@
+2026-11-19 16:31:51,255 [INFO] args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'no_use_paa': True, 'seg_proj_sharing_strategy': 'shared', 'moe_r': 8, 'moe_lora_alpha': 16, 'moe_num_experts': 4, 'moe_top_k': 2, 'moe_layers': '5,11,17,23', 'no_use_fofs': True, 'dataset': 'Brain', 'shot': 4, 'batch_size': 8, 'seed': 111, 'visual_path': 'ckpt/baseline', 'visualize': False, 'image_adapt_weight': 0.1, 'save_path': 'ckpt/baseline'}
+2026-11-19 16:31:51,257 [INFO] Loading pretrained ViT-L-14-336 from OpenAI.
+2026-11-19 16:32:00,346 [INFO] Resizing position embedding grid-size from (24, 24) to (37, 37)
+2026-11-19 16:32:00,965 [INFO] -----------------------------------------------
+2026-11-19 16:32:00,966 [INFO] dataset: Brain
+2026-11-19 16:32:00,967 [INFO] -----------------------------------------------
+2026-11-19 16:32:00,967 [INFO] ckpt/baseline\moe_epoch_1.pth
+2026-11-19 16:32:01,024 [INFO] -----------------------------------------------
+2026-11-19 16:32:01,024 [INFO] Successfully loaded model from epoch 1 from ckpt/baseline\moe_epoch_1.pth
+2026-11-19 16:32:01,024 [INFO] -----------------------------------------------
+2026-11-19 16:54:45,556 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      97.32    60.8      86.4     96.55 
+ Average      97.32    60.8      86.4     96.55 
+2026-11-19 16:54:45,557 [INFO] ckpt/baseline\moe_epoch_2.pth
+2026-11-19 16:54:46,251 [INFO] -----------------------------------------------
+2026-11-19 16:54:46,251 [INFO] Successfully loaded model from epoch 2 from ckpt/baseline\moe_epoch_2.pth
+2026-11-19 16:54:46,251 [INFO] -----------------------------------------------
+2026-11-19 17:16:44,273 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      96.88    57.87     86.22    96.55 
+ Average      96.88    57.87     86.22    96.55 
+2026-11-19 17:16:44,274 [INFO] ckpt/baseline\moe_epoch_3.pth
+2026-11-19 17:16:44,943 [INFO] -----------------------------------------------
+2026-11-19 17:16:44,943 [INFO] Successfully loaded model from epoch 3 from ckpt/baseline\moe_epoch_3.pth
+2026-11-19 17:16:44,943 [INFO] -----------------------------------------------
+2026-11-19 17:38:27,903 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      96.96    58.03     86.9     96.72 
+ Average      96.96    58.03     86.9     96.72 
+2026-11-19 17:38:27,903 [INFO] ckpt/baseline\moe_epoch_4.pth
+2026-11-19 17:38:28,549 [INFO] -----------------------------------------------
+2026-11-19 17:38:28,549 [INFO] Successfully loaded model from epoch 4 from ckpt/baseline\moe_epoch_4.pth
+2026-11-19 17:38:28,550 [INFO] -----------------------------------------------
+2026-11-19 18:01:03,416 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      96.44    51.92     84.8     96.02 
+ Average      96.44    51.92     84.8     96.02 
+2026-11-19 18:01:03,417 [INFO] ckpt/baseline\moe_epoch_5.pth
+2026-11-19 18:01:04,117 [INFO] -----------------------------------------------
+2026-11-19 18:01:04,117 [INFO] Successfully loaded model from epoch 5 from ckpt/baseline\moe_epoch_5.pth
+2026-11-19 18:01:04,118 [INFO] -----------------------------------------------
+2026-11-19 18:23:39,134 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      96.68    54.69     85.71    96.29 
+ Average      96.68    54.69     85.71    96.29 
+2026-11-19 18:23:39,134 [INFO] ckpt/baseline\moe_epoch_6.pth
+2026-11-19 18:23:40,150 [INFO] -----------------------------------------------
+2026-11-19 18:23:40,150 [INFO] Successfully loaded model from epoch 6 from ckpt/baseline\moe_epoch_6.pth
+2026-11-19 18:23:40,151 [INFO] -----------------------------------------------
+2026-11-19 18:45:51,482 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      96.27    50.26     83.94    95.65 
+ Average      96.27    50.26     83.94    95.65 
+2026-11-19 18:45:51,482 [INFO] ckpt/baseline\moe_epoch_7.pth
+2026-11-19 18:45:52,282 [INFO] -----------------------------------------------
+2026-11-19 18:45:52,282 [INFO] Successfully loaded model from epoch 7 from ckpt/baseline\moe_epoch_7.pth
+2026-11-19 18:45:52,282 [INFO] -----------------------------------------------
+2026-11-19 19:07:53,925 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      96.53    52.71     85.61    96.22 
+ Average      96.53    52.71     85.61    96.22 
+2026-11-19 19:07:53,925 [INFO] ckpt/baseline\moe_epoch_8.pth
+2026-11-19 19:07:54,653 [INFO] -----------------------------------------------
+2026-11-19 19:07:54,653 [INFO] Successfully loaded model from epoch 8 from ckpt/baseline\moe_epoch_8.pth
+2026-11-19 19:07:54,653 [INFO] -----------------------------------------------
+2026-11-19 19:30:09,110 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      96.09    48.17     83.54    95.46 
+ Average      96.09    48.17     83.54    95.46 
+2026-11-19 19:30:09,110 [INFO] ckpt/baseline\moe_epoch_9.pth
+2026-11-19 19:30:09,801 [INFO] -----------------------------------------------
+2026-11-19 19:30:09,801 [INFO] Successfully loaded model from epoch 9 from ckpt/baseline\moe_epoch_9.pth
+2026-11-19 19:30:09,802 [INFO] -----------------------------------------------
+2026-11-19 19:52:15,777 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      95.95    45.4      82.07    94.93 
+ Average      95.95    45.4      82.07    94.93 
+2026-11-19 19:52:15,777 [INFO] ckpt/baseline\moe_epoch_10.pth
+2026-11-19 19:52:16,391 [INFO] -----------------------------------------------
+2026-11-19 19:52:16,392 [INFO] Successfully loaded model from epoch 10 from ckpt/baseline\moe_epoch_10.pth
+2026-11-19 19:52:16,392 [INFO] -----------------------------------------------
+2026-11-19 20:14:05,378 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      96.05    46.91     82.04    94.97 
+ Average      96.05    46.91     82.04    94.97 
+2026-11-19 20:14:05,379 [INFO] ckpt/baseline\moe_epoch_11.pth
+2026-11-19 20:14:06,161 [INFO] -----------------------------------------------
+2026-11-19 20:14:06,162 [INFO] Successfully loaded model from epoch 11 from ckpt/baseline\moe_epoch_11.pth
+2026-11-19 20:14:06,162 [INFO] -----------------------------------------------
+2026-11-19 20:36:03,153 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      95.87    46.04     81.14    94.65 
+ Average      95.87    46.04     81.14    94.65 
+2026-11-19 20:36:03,153 [INFO] ckpt/baseline\moe_epoch_12.pth
+2026-11-19 20:36:03,821 [INFO] -----------------------------------------------
+2026-11-19 20:36:03,821 [INFO] Successfully loaded model from epoch 12 from ckpt/baseline\moe_epoch_12.pth
+2026-11-19 20:36:03,821 [INFO] -----------------------------------------------
+2026-11-19 20:58:12,581 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      96.07    46.78     82.9     95.25 
+ Average      96.07    46.78     82.9     95.25 
+2026-11-19 20:58:12,582 [INFO] ckpt/baseline\moe_epoch_13.pth
+2026-11-19 20:58:13,243 [INFO] -----------------------------------------------
+2026-11-19 20:58:13,244 [INFO] Successfully loaded model from epoch 13 from ckpt/baseline\moe_epoch_13.pth
+2026-11-19 20:58:13,244 [INFO] -----------------------------------------------
+2026-11-19 21:20:31,700 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      96.37    49.77     82.82    95.23 
+ Average      96.37    49.77     82.82    95.23 
+2026-11-19 21:20:31,700 [INFO] ckpt/baseline\moe_epoch_14.pth
+2026-11-19 21:20:32,337 [INFO] -----------------------------------------------
+2026-11-19 21:20:32,337 [INFO] Successfully loaded model from epoch 14 from ckpt/baseline\moe_epoch_14.pth
+2026-11-19 21:20:32,339 [INFO] -----------------------------------------------
+2026-11-19 21:42:20,302 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      95.93    45.63     81.17    94.57 
+ Average      95.93    45.63     81.17    94.57 
+2026-11-19 21:42:20,304 [INFO] ckpt/baseline\moe_epoch_15.pth
+2026-11-19 21:42:20,952 [INFO] -----------------------------------------------
+2026-11-19 21:42:20,953 [INFO] Successfully loaded model from epoch 15 from ckpt/baseline\moe_epoch_15.pth
+2026-11-19 21:42:20,953 [INFO] -----------------------------------------------
+2026-11-19 22:04:24,436 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      95.44    42.23     79.34    93.9  
+ Average      95.44    42.23     79.34    93.9  
+2026-11-19 22:04:24,436 [INFO] ckpt/baseline\moe_epoch_16.pth
+2026-11-19 22:04:25,082 [INFO] -----------------------------------------------
+2026-11-19 22:04:25,083 [INFO] Successfully loaded model from epoch 16 from ckpt/baseline\moe_epoch_16.pth
+2026-11-19 22:04:25,083 [INFO] -----------------------------------------------
+2026-11-19 22:26:17,710 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      95.34    41.71     78.85    93.76 
+ Average      95.34    41.71     78.85    93.76 
+2026-11-19 22:26:17,710 [INFO] ckpt/baseline\moe_epoch_17.pth
+2026-11-19 22:26:18,410 [INFO] -----------------------------------------------
+2026-11-19 22:26:18,410 [INFO] Successfully loaded model from epoch 17 from ckpt/baseline\moe_epoch_17.pth
+2026-11-19 22:26:18,411 [INFO] -----------------------------------------------
+2026-11-19 22:48:45,828 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      95.22    40.97     79.29    93.87 
+ Average      95.22    40.97     79.29    93.87 
+2026-11-19 22:48:45,829 [INFO] ckpt/baseline\moe_epoch_18.pth
+2026-11-19 22:48:46,461 [INFO] -----------------------------------------------
+2026-11-19 22:48:46,462 [INFO] Successfully loaded model from epoch 18 from ckpt/baseline\moe_epoch_18.pth
+2026-11-19 22:48:46,462 [INFO] -----------------------------------------------
+2026-11-19 23:10:28,278 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      95.41    42.08     80.24    94.24 
+ Average      95.41    42.08     80.24    94.24 
+2026-11-19 23:10:28,278 [INFO] ckpt/baseline\moe_epoch_19.pth
+2026-11-19 23:10:28,941 [INFO] -----------------------------------------------
+2026-11-19 23:10:28,941 [INFO] Successfully loaded model from epoch 19 from ckpt/baseline\moe_epoch_19.pth
+2026-11-19 23:10:28,942 [INFO] -----------------------------------------------
+2026-11-19 23:32:36,270 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      95.2     40.35     78.76    93.7  
+ Average      95.2     40.35     78.76    93.7  
+2026-11-19 23:32:36,272 [INFO] ckpt/baseline\moe_epoch_20.pth
+2026-11-19 23:32:36,898 [INFO] -----------------------------------------------
+2026-11-19 23:32:36,898 [INFO] Successfully loaded model from epoch 20 from ckpt/baseline\moe_epoch_20.pth
+2026-11-19 23:32:36,899 [INFO] -----------------------------------------------
+2026-11-19 23:54:16,819 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+   Brain      95.29    40.84     78.24    93.52 
+ Average      95.29    40.84     78.24    93.52 

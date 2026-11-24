@@ -1,0 +1,20 @@
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*.log
+ckpt/
+data/
+*.pth
+*.pt
+.DS_Store
+
+# 本地复现辅助脚本（含本机路径，不入库）
+run_all_test.bat
+run_remaining.bat
+
+# 保留结果归档中的原始测试日志（results/ 下不受 *.log 影响）
+!results/
+!results/v1/
+!results/v1/logs/
+!results/v1/logs/*.log

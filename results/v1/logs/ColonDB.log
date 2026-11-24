@@ -1,0 +1,166 @@
+2026-11-20 06:37:51,345 [INFO] args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'no_use_paa': True, 'seg_proj_sharing_strategy': 'shared', 'moe_r': 8, 'moe_lora_alpha': 16, 'moe_num_experts': 4, 'moe_top_k': 2, 'moe_layers': '5,11,17,23', 'no_use_fofs': True, 'dataset': 'Colon_colonDB', 'shot': 4, 'batch_size': 8, 'seed': 111, 'visual_path': 'ckpt/baseline', 'visualize': False, 'image_adapt_weight': 0.1, 'save_path': 'ckpt/baseline'}
+2026-11-20 06:37:51,346 [INFO] Loading pretrained ViT-L-14-336 from OpenAI.
+2026-11-20 06:38:00,334 [INFO] Resizing position embedding grid-size from (24, 24) to (37, 37)
+2026-11-20 06:38:00,945 [INFO] -----------------------------------------------
+2026-11-20 06:38:00,946 [INFO] dataset: Colon_colonDB
+2026-11-20 06:38:00,946 [INFO] -----------------------------------------------
+2026-11-20 06:38:00,946 [INFO] ckpt/baseline\moe_epoch_1.pth
+2026-11-20 06:38:00,997 [INFO] -----------------------------------------------
+2026-11-20 06:38:00,997 [INFO] Successfully loaded model from epoch 1 from ckpt/baseline\moe_epoch_1.pth
+2026-11-20 06:38:00,997 [INFO] -----------------------------------------------
+2026-11-20 06:40:38,741 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    80.75    33.47      0.0      0.0  
+      Average    80.75    33.47      0.0      0.0  
+2026-11-20 06:40:38,742 [INFO] ckpt/baseline\moe_epoch_2.pth
+2026-11-20 06:40:38,868 [INFO] -----------------------------------------------
+2026-11-20 06:40:38,868 [INFO] Successfully loaded model from epoch 2 from ckpt/baseline\moe_epoch_2.pth
+2026-11-20 06:40:38,868 [INFO] -----------------------------------------------
+2026-11-20 06:43:17,570 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    82.2     34.76      0.0      0.0  
+      Average    82.2     34.76      0.0      0.0  
+2026-11-20 06:43:17,570 [INFO] ckpt/baseline\moe_epoch_3.pth
+2026-11-20 06:43:17,755 [INFO] -----------------------------------------------
+2026-11-20 06:43:17,756 [INFO] Successfully loaded model from epoch 3 from ckpt/baseline\moe_epoch_3.pth
+2026-11-20 06:43:17,756 [INFO] -----------------------------------------------
+2026-11-20 06:45:55,096 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    82.82    34.71      0.0      0.0  
+      Average    82.82    34.71      0.0      0.0  
+2026-11-20 06:45:55,097 [INFO] ckpt/baseline\moe_epoch_4.pth
+2026-11-20 06:45:55,246 [INFO] -----------------------------------------------
+2026-11-20 06:45:55,247 [INFO] Successfully loaded model from epoch 4 from ckpt/baseline\moe_epoch_4.pth
+2026-11-20 06:45:55,247 [INFO] -----------------------------------------------
+2026-11-20 06:48:32,448 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    82.8     35.01      0.0      0.0  
+      Average    82.8     35.01      0.0      0.0  
+2026-11-20 06:48:32,448 [INFO] ckpt/baseline\moe_epoch_5.pth
+2026-11-20 06:48:32,591 [INFO] -----------------------------------------------
+2026-11-20 06:48:32,591 [INFO] Successfully loaded model from epoch 5 from ckpt/baseline\moe_epoch_5.pth
+2026-11-20 06:48:32,592 [INFO] -----------------------------------------------
+2026-11-20 06:51:11,255 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    82.38    32.39      0.0      0.0  
+      Average    82.38    32.39      0.0      0.0  
+2026-11-20 06:51:11,256 [INFO] ckpt/baseline\moe_epoch_6.pth
+2026-11-20 06:51:11,428 [INFO] -----------------------------------------------
+2026-11-20 06:51:11,429 [INFO] Successfully loaded model from epoch 6 from ckpt/baseline\moe_epoch_6.pth
+2026-11-20 06:51:11,430 [INFO] -----------------------------------------------
+2026-11-20 06:53:49,164 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    82.58    32.34      0.0      0.0  
+      Average    82.58    32.34      0.0      0.0  
+2026-11-20 06:53:49,165 [INFO] ckpt/baseline\moe_epoch_7.pth
+2026-11-20 06:53:49,322 [INFO] -----------------------------------------------
+2026-11-20 06:53:49,323 [INFO] Successfully loaded model from epoch 7 from ckpt/baseline\moe_epoch_7.pth
+2026-11-20 06:53:49,323 [INFO] -----------------------------------------------
+2026-11-20 06:56:26,843 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    83.46    33.95      0.0      0.0  
+      Average    83.46    33.95      0.0      0.0  
+2026-11-20 06:56:26,843 [INFO] ckpt/baseline\moe_epoch_8.pth
+2026-11-20 06:56:26,986 [INFO] -----------------------------------------------
+2026-11-20 06:56:26,987 [INFO] Successfully loaded model from epoch 8 from ckpt/baseline\moe_epoch_8.pth
+2026-11-20 06:56:26,987 [INFO] -----------------------------------------------
+2026-11-20 06:59:06,879 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    83.24    32.84      0.0      0.0  
+      Average    83.24    32.84      0.0      0.0  
+2026-11-20 06:59:06,879 [INFO] ckpt/baseline\moe_epoch_9.pth
+2026-11-20 06:59:07,030 [INFO] -----------------------------------------------
+2026-11-20 06:59:07,030 [INFO] Successfully loaded model from epoch 9 from ckpt/baseline\moe_epoch_9.pth
+2026-11-20 06:59:07,030 [INFO] -----------------------------------------------
+2026-11-20 07:01:46,868 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    83.47    32.74      0.0      0.0  
+      Average    83.47    32.74      0.0      0.0  
+2026-11-20 07:01:46,868 [INFO] ckpt/baseline\moe_epoch_10.pth
+2026-11-20 07:01:47,016 [INFO] -----------------------------------------------
+2026-11-20 07:01:47,017 [INFO] Successfully loaded model from epoch 10 from ckpt/baseline\moe_epoch_10.pth
+2026-11-20 07:01:47,017 [INFO] -----------------------------------------------
+2026-11-20 07:04:25,351 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    84.05    32.61      0.0      0.0  
+      Average    84.05    32.61      0.0      0.0  
+2026-11-20 07:04:25,352 [INFO] ckpt/baseline\moe_epoch_11.pth
+2026-11-20 07:04:25,510 [INFO] -----------------------------------------------
+2026-11-20 07:04:25,511 [INFO] Successfully loaded model from epoch 11 from ckpt/baseline\moe_epoch_11.pth
+2026-11-20 07:04:25,511 [INFO] -----------------------------------------------
+2026-11-20 07:07:05,456 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    83.94    33.44      0.0      0.0  
+      Average    83.94    33.44      0.0      0.0  
+2026-11-20 07:07:05,456 [INFO] ckpt/baseline\moe_epoch_12.pth
+2026-11-20 07:07:05,605 [INFO] -----------------------------------------------
+2026-11-20 07:07:05,605 [INFO] Successfully loaded model from epoch 12 from ckpt/baseline\moe_epoch_12.pth
+2026-11-20 07:07:05,605 [INFO] -----------------------------------------------
+2026-11-20 07:09:43,581 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    84.68    34.27      0.0      0.0  
+      Average    84.68    34.27      0.0      0.0  
+2026-11-20 07:09:43,581 [INFO] ckpt/baseline\moe_epoch_13.pth
+2026-11-20 07:09:43,750 [INFO] -----------------------------------------------
+2026-11-20 07:09:43,750 [INFO] Successfully loaded model from epoch 13 from ckpt/baseline\moe_epoch_13.pth
+2026-11-20 07:09:43,751 [INFO] -----------------------------------------------
+2026-11-20 07:12:20,837 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    84.75    35.47      0.0      0.0  
+      Average    84.75    35.47      0.0      0.0  
+2026-11-20 07:12:20,837 [INFO] ckpt/baseline\moe_epoch_14.pth
+2026-11-20 07:12:20,990 [INFO] -----------------------------------------------
+2026-11-20 07:12:20,990 [INFO] Successfully loaded model from epoch 14 from ckpt/baseline\moe_epoch_14.pth
+2026-11-20 07:12:20,991 [INFO] -----------------------------------------------
+2026-11-20 07:15:01,001 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    85.13    34.86      0.0      0.0  
+      Average    85.13    34.86      0.0      0.0  
+2026-11-20 07:15:01,002 [INFO] ckpt/baseline\moe_epoch_15.pth
+2026-11-20 07:15:01,155 [INFO] -----------------------------------------------
+2026-11-20 07:15:01,155 [INFO] Successfully loaded model from epoch 15 from ckpt/baseline\moe_epoch_15.pth
+2026-11-20 07:15:01,156 [INFO] -----------------------------------------------
+2026-11-20 07:17:41,015 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    84.96    34.77      0.0      0.0  
+      Average    84.96    34.77      0.0      0.0  
+2026-11-20 07:17:41,016 [INFO] ckpt/baseline\moe_epoch_16.pth
+2026-11-20 07:17:41,167 [INFO] -----------------------------------------------
+2026-11-20 07:17:41,168 [INFO] Successfully loaded model from epoch 16 from ckpt/baseline\moe_epoch_16.pth
+2026-11-20 07:17:41,168 [INFO] -----------------------------------------------
+2026-11-20 07:20:21,119 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    84.8     33.94      0.0      0.0  
+      Average    84.8     33.94      0.0      0.0  
+2026-11-20 07:20:21,119 [INFO] ckpt/baseline\moe_epoch_17.pth
+2026-11-20 07:20:21,275 [INFO] -----------------------------------------------
+2026-11-20 07:20:21,276 [INFO] Successfully loaded model from epoch 17 from ckpt/baseline\moe_epoch_17.pth
+2026-11-20 07:20:21,276 [INFO] -----------------------------------------------
+2026-11-20 07:23:01,055 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    84.95    33.71      0.0      0.0  
+      Average    84.95    33.71      0.0      0.0  
+2026-11-20 07:23:01,055 [INFO] ckpt/baseline\moe_epoch_18.pth
+2026-11-20 07:23:01,207 [INFO] -----------------------------------------------
+2026-11-20 07:23:01,208 [INFO] Successfully loaded model from epoch 18 from ckpt/baseline\moe_epoch_18.pth
+2026-11-20 07:23:01,208 [INFO] -----------------------------------------------
+2026-11-20 07:25:38,246 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    85.42    35.18      0.0      0.0  
+      Average    85.42    35.18      0.0      0.0  
+2026-11-20 07:25:38,247 [INFO] ckpt/baseline\moe_epoch_19.pth
+2026-11-20 07:25:38,384 [INFO] -----------------------------------------------
+2026-11-20 07:25:38,385 [INFO] Successfully loaded model from epoch 19 from ckpt/baseline\moe_epoch_19.pth
+2026-11-20 07:25:38,385 [INFO] -----------------------------------------------
+2026-11-20 07:28:18,682 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    85.36    34.58      0.0      0.0  
+      Average    85.36    34.58      0.0      0.0  
+2026-11-20 07:28:18,683 [INFO] ckpt/baseline\moe_epoch_20.pth
+2026-11-20 07:28:18,829 [INFO] -----------------------------------------------
+2026-11-20 07:28:18,830 [INFO] Successfully loaded model from epoch 20 from ckpt/baseline\moe_epoch_20.pth
+2026-11-20 07:28:18,830 [INFO] -----------------------------------------------
+2026-11-20 07:30:55,423 [INFO] final results:
+  class name  pixel AUC pixel AP image AUC image AP
+Colon_colonDB    85.11    34.46      0.0      0.0  
+      Average    85.11    34.46      0.0      0.0  

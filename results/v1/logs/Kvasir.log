@@ -1,0 +1,166 @@
+2026-11-20 09:36:02,467 [INFO] args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'no_use_paa': True, 'seg_proj_sharing_strategy': 'shared', 'moe_r': 8, 'moe_lora_alpha': 16, 'moe_num_experts': 4, 'moe_top_k': 2, 'moe_layers': '5,11,17,23', 'no_use_fofs': True, 'dataset': 'Colon_Kvasir', 'shot': 4, 'batch_size': 8, 'seed': 111, 'visual_path': 'ckpt/baseline', 'visualize': False, 'image_adapt_weight': 0.1, 'save_path': 'ckpt/baseline'}
+2026-11-20 09:36:02,468 [INFO] Loading pretrained ViT-L-14-336 from OpenAI.
+2026-11-20 09:36:11,455 [INFO] Resizing position embedding grid-size from (24, 24) to (37, 37)
+2026-11-20 09:36:12,061 [INFO] -----------------------------------------------
+2026-11-20 09:36:12,061 [INFO] dataset: Colon_Kvasir
+2026-11-20 09:36:12,062 [INFO] -----------------------------------------------
+2026-11-20 09:36:12,062 [INFO] ckpt/baseline\moe_epoch_1.pth
+2026-11-20 09:36:12,114 [INFO] -----------------------------------------------
+2026-11-20 09:36:12,114 [INFO] Successfully loaded model from epoch 1 from ckpt/baseline\moe_epoch_1.pth
+2026-11-20 09:36:12,115 [INFO] -----------------------------------------------
+2026-11-20 09:42:14,627 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      81.8     45.21      0.0      0.0  
+ Average      81.8     45.21      0.0      0.0  
+2026-11-20 09:42:14,628 [INFO] ckpt/baseline\moe_epoch_2.pth
+2026-11-20 09:42:14,849 [INFO] -----------------------------------------------
+2026-11-20 09:42:14,849 [INFO] Successfully loaded model from epoch 2 from ckpt/baseline\moe_epoch_2.pth
+2026-11-20 09:42:14,850 [INFO] -----------------------------------------------
+2026-11-20 09:48:17,825 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      83.87    48.49      0.0      0.0  
+ Average      83.87    48.49      0.0      0.0  
+2026-11-20 09:48:17,825 [INFO] ckpt/baseline\moe_epoch_3.pth
+2026-11-20 09:48:18,110 [INFO] -----------------------------------------------
+2026-11-20 09:48:18,111 [INFO] Successfully loaded model from epoch 3 from ckpt/baseline\moe_epoch_3.pth
+2026-11-20 09:48:18,112 [INFO] -----------------------------------------------
+2026-11-20 09:55:02,228 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      84.54    50.63      0.0      0.0  
+ Average      84.54    50.63      0.0      0.0  
+2026-11-20 09:55:02,228 [INFO] ckpt/baseline\moe_epoch_4.pth
+2026-11-20 09:55:02,488 [INFO] -----------------------------------------------
+2026-11-20 09:55:02,488 [INFO] Successfully loaded model from epoch 4 from ckpt/baseline\moe_epoch_4.pth
+2026-11-20 09:55:02,489 [INFO] -----------------------------------------------
+2026-11-20 10:01:02,773 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      84.73    50.93      0.0      0.0  
+ Average      84.73    50.93      0.0      0.0  
+2026-11-20 10:01:02,774 [INFO] ckpt/baseline\moe_epoch_5.pth
+2026-11-20 10:01:03,031 [INFO] -----------------------------------------------
+2026-11-20 10:01:03,031 [INFO] Successfully loaded model from epoch 5 from ckpt/baseline\moe_epoch_5.pth
+2026-11-20 10:01:03,032 [INFO] -----------------------------------------------
+2026-11-20 10:07:07,942 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      84.35    50.05      0.0      0.0  
+ Average      84.35    50.05      0.0      0.0  
+2026-11-20 10:07:07,942 [INFO] ckpt/baseline\moe_epoch_6.pth
+2026-11-20 10:07:08,193 [INFO] -----------------------------------------------
+2026-11-20 10:07:08,194 [INFO] Successfully loaded model from epoch 6 from ckpt/baseline\moe_epoch_6.pth
+2026-11-20 10:07:08,194 [INFO] -----------------------------------------------
+2026-11-20 10:13:11,533 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      84.9     50.66      0.0      0.0  
+ Average      84.9     50.66      0.0      0.0  
+2026-11-20 10:13:11,533 [INFO] ckpt/baseline\moe_epoch_7.pth
+2026-11-20 10:13:11,792 [INFO] -----------------------------------------------
+2026-11-20 10:13:11,793 [INFO] Successfully loaded model from epoch 7 from ckpt/baseline\moe_epoch_7.pth
+2026-11-20 10:13:11,793 [INFO] -----------------------------------------------
+2026-11-20 10:19:12,135 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      85.38    52.12      0.0      0.0  
+ Average      85.38    52.12      0.0      0.0  
+2026-11-20 10:19:12,135 [INFO] ckpt/baseline\moe_epoch_8.pth
+2026-11-20 10:19:12,436 [INFO] -----------------------------------------------
+2026-11-20 10:19:12,438 [INFO] Successfully loaded model from epoch 8 from ckpt/baseline\moe_epoch_8.pth
+2026-11-20 10:19:12,440 [INFO] -----------------------------------------------
+2026-11-20 10:25:18,304 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      84.69    50.51      0.0      0.0  
+ Average      84.69    50.51      0.0      0.0  
+2026-11-20 10:25:18,304 [INFO] ckpt/baseline\moe_epoch_9.pth
+2026-11-20 10:25:18,581 [INFO] -----------------------------------------------
+2026-11-20 10:25:18,582 [INFO] Successfully loaded model from epoch 9 from ckpt/baseline\moe_epoch_9.pth
+2026-11-20 10:25:18,582 [INFO] -----------------------------------------------
+2026-11-20 10:31:31,933 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      84.72    50.66      0.0      0.0  
+ Average      84.72    50.66      0.0      0.0  
+2026-11-20 10:31:31,933 [INFO] ckpt/baseline\moe_epoch_10.pth
+2026-11-20 10:31:32,194 [INFO] -----------------------------------------------
+2026-11-20 10:31:32,194 [INFO] Successfully loaded model from epoch 10 from ckpt/baseline\moe_epoch_10.pth
+2026-11-20 10:31:32,195 [INFO] -----------------------------------------------
+2026-11-20 10:37:49,998 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      85.34    51.39      0.0      0.0  
+ Average      85.34    51.39      0.0      0.0  
+2026-11-20 10:37:49,999 [INFO] ckpt/baseline\moe_epoch_11.pth
+2026-11-20 10:37:50,266 [INFO] -----------------------------------------------
+2026-11-20 10:37:50,266 [INFO] Successfully loaded model from epoch 11 from ckpt/baseline\moe_epoch_11.pth
+2026-11-20 10:37:50,267 [INFO] -----------------------------------------------
+2026-11-20 10:44:11,782 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      85.15    51.36      0.0      0.0  
+ Average      85.15    51.36      0.0      0.0  
+2026-11-20 10:44:11,782 [INFO] ckpt/baseline\moe_epoch_12.pth
+2026-11-20 10:44:12,036 [INFO] -----------------------------------------------
+2026-11-20 10:44:12,036 [INFO] Successfully loaded model from epoch 12 from ckpt/baseline\moe_epoch_12.pth
+2026-11-20 10:44:12,037 [INFO] -----------------------------------------------
+2026-11-20 10:50:33,750 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      86.28    54.07      0.0      0.0  
+ Average      86.28    54.07      0.0      0.0  
+2026-11-20 10:50:33,751 [INFO] ckpt/baseline\moe_epoch_13.pth
+2026-11-20 10:50:34,033 [INFO] -----------------------------------------------
+2026-11-20 10:50:34,033 [INFO] Successfully loaded model from epoch 13 from ckpt/baseline\moe_epoch_13.pth
+2026-11-20 10:50:34,033 [INFO] -----------------------------------------------
+2026-11-20 10:56:51,776 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      86.95    56.48      0.0      0.0  
+ Average      86.95    56.48      0.0      0.0  
+2026-11-20 10:56:51,777 [INFO] ckpt/baseline\moe_epoch_14.pth
+2026-11-20 10:56:52,067 [INFO] -----------------------------------------------
+2026-11-20 10:56:52,067 [INFO] Successfully loaded model from epoch 14 from ckpt/baseline\moe_epoch_14.pth
+2026-11-20 10:56:52,068 [INFO] -----------------------------------------------
+2026-11-20 11:03:12,284 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      86.99    55.33      0.0      0.0  
+ Average      86.99    55.33      0.0      0.0  
+2026-11-20 11:03:12,285 [INFO] ckpt/baseline\moe_epoch_15.pth
+2026-11-20 11:03:12,543 [INFO] -----------------------------------------------
+2026-11-20 11:03:12,543 [INFO] Successfully loaded model from epoch 15 from ckpt/baseline\moe_epoch_15.pth
+2026-11-20 11:03:12,544 [INFO] -----------------------------------------------
+2026-11-20 11:09:28,987 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      86.95    55.91      0.0      0.0  
+ Average      86.95    55.91      0.0      0.0  
+2026-11-20 11:09:28,988 [INFO] ckpt/baseline\moe_epoch_16.pth
+2026-11-20 11:09:29,273 [INFO] -----------------------------------------------
+2026-11-20 11:09:29,274 [INFO] Successfully loaded model from epoch 16 from ckpt/baseline\moe_epoch_16.pth
+2026-11-20 11:09:29,274 [INFO] -----------------------------------------------
+2026-11-20 11:15:44,200 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      87.16    56.47      0.0      0.0  
+ Average      87.16    56.47      0.0      0.0  
+2026-11-20 11:15:44,201 [INFO] ckpt/baseline\moe_epoch_17.pth
+2026-11-20 11:15:44,491 [INFO] -----------------------------------------------
+2026-11-20 11:15:44,491 [INFO] Successfully loaded model from epoch 17 from ckpt/baseline\moe_epoch_17.pth
+2026-11-20 11:15:44,492 [INFO] -----------------------------------------------
+2026-11-20 11:21:56,307 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      86.9     55.3       0.0      0.0  
+ Average      86.9     55.3       0.0      0.0  
+2026-11-20 11:21:56,307 [INFO] ckpt/baseline\moe_epoch_18.pth
+2026-11-20 11:21:56,590 [INFO] -----------------------------------------------
+2026-11-20 11:21:56,591 [INFO] Successfully loaded model from epoch 18 from ckpt/baseline\moe_epoch_18.pth
+2026-11-20 11:21:56,591 [INFO] -----------------------------------------------
+2026-11-20 11:28:09,101 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      87.72    57.34      0.0      0.0  
+ Average      87.72    57.34      0.0      0.0  
+2026-11-20 11:28:09,101 [INFO] ckpt/baseline\moe_epoch_19.pth
+2026-11-20 11:28:09,382 [INFO] -----------------------------------------------
+2026-11-20 11:28:09,382 [INFO] Successfully loaded model from epoch 19 from ckpt/baseline\moe_epoch_19.pth
+2026-11-20 11:28:09,383 [INFO] -----------------------------------------------
+2026-11-20 11:34:07,568 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      87.53    56.98      0.0      0.0  
+ Average      87.53    56.98      0.0      0.0  
+2026-11-20 11:34:07,568 [INFO] ckpt/baseline\moe_epoch_20.pth
+2026-11-20 11:34:07,810 [INFO] -----------------------------------------------
+2026-11-20 11:34:07,810 [INFO] Successfully loaded model from epoch 20 from ckpt/baseline\moe_epoch_20.pth
+2026-11-20 11:34:07,810 [INFO] -----------------------------------------------
+2026-11-20 11:40:22,845 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  Kvasir      87.69    57.13      0.0      0.0  
+ Average      87.69    57.13      0.0      0.0  

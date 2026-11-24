@@ -1,0 +1,166 @@
+2026-11-19 23:54:34,696 [INFO] args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'no_use_paa': True, 'seg_proj_sharing_strategy': 'shared', 'moe_r': 8, 'moe_lora_alpha': 16, 'moe_num_experts': 4, 'moe_top_k': 2, 'moe_layers': '5,11,17,23', 'no_use_fofs': True, 'dataset': 'headct', 'shot': 4, 'batch_size': 8, 'seed': 111, 'visual_path': 'ckpt/baseline', 'visualize': False, 'image_adapt_weight': 0.1, 'save_path': 'ckpt/baseline'}
+2026-11-19 23:54:34,696 [INFO] Loading pretrained ViT-L-14-336 from OpenAI.
+2026-11-19 23:54:47,874 [INFO] Resizing position embedding grid-size from (24, 24) to (37, 37)
+2026-11-19 23:54:48,520 [INFO] -----------------------------------------------
+2026-11-19 23:54:48,521 [INFO] dataset: headct
+2026-11-19 23:54:48,522 [INFO] -----------------------------------------------
+2026-11-19 23:54:48,523 [INFO] ckpt/baseline\moe_epoch_1.pth
+2026-11-19 23:54:48,942 [INFO] -----------------------------------------------
+2026-11-19 23:54:48,942 [INFO] Successfully loaded model from epoch 1 from ckpt/baseline\moe_epoch_1.pth
+2026-11-19 23:54:48,942 [INFO] -----------------------------------------------
+2026-11-19 23:56:11,407 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      91.07    91.67 
+ Average      NaN       0.0      91.07    91.67 
+2026-11-19 23:56:11,407 [INFO] ckpt/baseline\moe_epoch_2.pth
+2026-11-19 23:56:11,518 [INFO] -----------------------------------------------
+2026-11-19 23:56:11,519 [INFO] Successfully loaded model from epoch 2 from ckpt/baseline\moe_epoch_2.pth
+2026-11-19 23:56:11,519 [INFO] -----------------------------------------------
+2026-11-19 23:57:33,244 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      94.44    94.38 
+ Average      NaN       0.0      94.44    94.38 
+2026-11-19 23:57:33,244 [INFO] ckpt/baseline\moe_epoch_3.pth
+2026-11-19 23:57:33,366 [INFO] -----------------------------------------------
+2026-11-19 23:57:33,367 [INFO] Successfully loaded model from epoch 3 from ckpt/baseline\moe_epoch_3.pth
+2026-11-19 23:57:33,367 [INFO] -----------------------------------------------
+2026-11-19 23:58:55,065 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      95.2     94.23 
+ Average      NaN       0.0      95.2     94.23 
+2026-11-19 23:58:55,065 [INFO] ckpt/baseline\moe_epoch_4.pth
+2026-11-19 23:58:55,192 [INFO] -----------------------------------------------
+2026-11-19 23:58:55,192 [INFO] Successfully loaded model from epoch 4 from ckpt/baseline\moe_epoch_4.pth
+2026-11-19 23:58:55,193 [INFO] -----------------------------------------------
+2026-11-20 00:00:16,794 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      94.82    93.28 
+ Average      NaN       0.0      94.82    93.28 
+2026-11-20 00:00:16,794 [INFO] ckpt/baseline\moe_epoch_5.pth
+2026-11-20 00:00:16,925 [INFO] -----------------------------------------------
+2026-11-20 00:00:16,926 [INFO] Successfully loaded model from epoch 5 from ckpt/baseline\moe_epoch_5.pth
+2026-11-20 00:00:16,927 [INFO] -----------------------------------------------
+2026-11-20 00:01:38,116 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      94.55    93.3  
+ Average      NaN       0.0      94.55    93.3  
+2026-11-20 00:01:38,116 [INFO] ckpt/baseline\moe_epoch_6.pth
+2026-11-20 00:01:38,238 [INFO] -----------------------------------------------
+2026-11-20 00:01:38,238 [INFO] Successfully loaded model from epoch 6 from ckpt/baseline\moe_epoch_6.pth
+2026-11-20 00:01:38,238 [INFO] -----------------------------------------------
+2026-11-20 00:02:59,678 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      93.7     91.61 
+ Average      NaN       0.0      93.7     91.61 
+2026-11-20 00:02:59,679 [INFO] ckpt/baseline\moe_epoch_7.pth
+2026-11-20 00:02:59,801 [INFO] -----------------------------------------------
+2026-11-20 00:02:59,801 [INFO] Successfully loaded model from epoch 7 from ckpt/baseline\moe_epoch_7.pth
+2026-11-20 00:02:59,802 [INFO] -----------------------------------------------
+2026-11-20 00:04:21,056 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      95.43    93.82 
+ Average      NaN       0.0      95.43    93.82 
+2026-11-20 00:04:21,056 [INFO] ckpt/baseline\moe_epoch_8.pth
+2026-11-20 00:04:21,188 [INFO] -----------------------------------------------
+2026-11-20 00:04:21,188 [INFO] Successfully loaded model from epoch 8 from ckpt/baseline\moe_epoch_8.pth
+2026-11-20 00:04:21,188 [INFO] -----------------------------------------------
+2026-11-20 00:05:43,257 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      94.27    91.84 
+ Average      NaN       0.0      94.27    91.84 
+2026-11-20 00:05:43,257 [INFO] ckpt/baseline\moe_epoch_9.pth
+2026-11-20 00:05:43,377 [INFO] -----------------------------------------------
+2026-11-20 00:05:43,377 [INFO] Successfully loaded model from epoch 9 from ckpt/baseline\moe_epoch_9.pth
+2026-11-20 00:05:43,377 [INFO] -----------------------------------------------
+2026-11-20 00:07:06,862 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      94.66    93.31 
+ Average      NaN       0.0      94.66    93.31 
+2026-11-20 00:07:06,863 [INFO] ckpt/baseline\moe_epoch_10.pth
+2026-11-20 00:07:06,980 [INFO] -----------------------------------------------
+2026-11-20 00:07:06,980 [INFO] Successfully loaded model from epoch 10 from ckpt/baseline\moe_epoch_10.pth
+2026-11-20 00:07:06,981 [INFO] -----------------------------------------------
+2026-11-20 00:08:28,329 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      95.18    93.9  
+ Average      NaN       0.0      95.18    93.9  
+2026-11-20 00:08:28,329 [INFO] ckpt/baseline\moe_epoch_11.pth
+2026-11-20 00:08:28,457 [INFO] -----------------------------------------------
+2026-11-20 00:08:28,457 [INFO] Successfully loaded model from epoch 11 from ckpt/baseline\moe_epoch_11.pth
+2026-11-20 00:08:28,457 [INFO] -----------------------------------------------
+2026-11-20 00:09:49,993 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      95.02    93.41 
+ Average      NaN       0.0      95.02    93.41 
+2026-11-20 00:09:49,994 [INFO] ckpt/baseline\moe_epoch_12.pth
+2026-11-20 00:09:50,118 [INFO] -----------------------------------------------
+2026-11-20 00:09:50,118 [INFO] Successfully loaded model from epoch 12 from ckpt/baseline\moe_epoch_12.pth
+2026-11-20 00:09:50,119 [INFO] -----------------------------------------------
+2026-11-20 00:11:11,942 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      95.45    93.48 
+ Average      NaN       0.0      95.45    93.48 
+2026-11-20 00:11:11,942 [INFO] ckpt/baseline\moe_epoch_13.pth
+2026-11-20 00:11:12,063 [INFO] -----------------------------------------------
+2026-11-20 00:11:12,064 [INFO] Successfully loaded model from epoch 13 from ckpt/baseline\moe_epoch_13.pth
+2026-11-20 00:11:12,064 [INFO] -----------------------------------------------
+2026-11-20 00:12:34,630 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      95.13    93.42 
+ Average      NaN       0.0      95.13    93.42 
+2026-11-20 00:12:34,630 [INFO] ckpt/baseline\moe_epoch_14.pth
+2026-11-20 00:12:34,746 [INFO] -----------------------------------------------
+2026-11-20 00:12:34,746 [INFO] Successfully loaded model from epoch 14 from ckpt/baseline\moe_epoch_14.pth
+2026-11-20 00:12:34,747 [INFO] -----------------------------------------------
+2026-11-20 00:13:57,888 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      94.81    93.21 
+ Average      NaN       0.0      94.81    93.21 
+2026-11-20 00:13:57,888 [INFO] ckpt/baseline\moe_epoch_15.pth
+2026-11-20 00:13:57,995 [INFO] -----------------------------------------------
+2026-11-20 00:13:57,996 [INFO] Successfully loaded model from epoch 15 from ckpt/baseline\moe_epoch_15.pth
+2026-11-20 00:13:57,997 [INFO] -----------------------------------------------
+2026-11-20 00:15:20,255 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      96.11    95.02 
+ Average      NaN       0.0      96.11    95.02 
+2026-11-20 00:15:20,255 [INFO] ckpt/baseline\moe_epoch_16.pth
+2026-11-20 00:15:20,375 [INFO] -----------------------------------------------
+2026-11-20 00:15:20,376 [INFO] Successfully loaded model from epoch 16 from ckpt/baseline\moe_epoch_16.pth
+2026-11-20 00:15:20,376 [INFO] -----------------------------------------------
+2026-11-20 00:16:42,155 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      95.27    93.94 
+ Average      NaN       0.0      95.27    93.94 
+2026-11-20 00:16:42,155 [INFO] ckpt/baseline\moe_epoch_17.pth
+2026-11-20 00:16:42,280 [INFO] -----------------------------------------------
+2026-11-20 00:16:42,281 [INFO] Successfully loaded model from epoch 17 from ckpt/baseline\moe_epoch_17.pth
+2026-11-20 00:16:42,281 [INFO] -----------------------------------------------
+2026-11-20 00:18:04,039 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      95.91    94.84 
+ Average      NaN       0.0      95.91    94.84 
+2026-11-20 00:18:04,039 [INFO] ckpt/baseline\moe_epoch_18.pth
+2026-11-20 00:18:04,167 [INFO] -----------------------------------------------
+2026-11-20 00:18:04,168 [INFO] Successfully loaded model from epoch 18 from ckpt/baseline\moe_epoch_18.pth
+2026-11-20 00:18:04,168 [INFO] -----------------------------------------------
+2026-11-20 00:19:25,953 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      95.92    94.98 
+ Average      NaN       0.0      95.92    94.98 
+2026-11-20 00:19:25,954 [INFO] ckpt/baseline\moe_epoch_19.pth
+2026-11-20 00:19:26,081 [INFO] -----------------------------------------------
+2026-11-20 00:19:26,081 [INFO] Successfully loaded model from epoch 19 from ckpt/baseline\moe_epoch_19.pth
+2026-11-20 00:19:26,082 [INFO] -----------------------------------------------
+2026-11-20 00:20:48,004 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      95.45    94.63 
+ Average      NaN       0.0      95.45    94.63 
+2026-11-20 00:20:48,005 [INFO] ckpt/baseline\moe_epoch_20.pth
+2026-11-20 00:20:48,120 [INFO] -----------------------------------------------
+2026-11-20 00:20:48,120 [INFO] Successfully loaded model from epoch 20 from ckpt/baseline\moe_epoch_20.pth
+2026-11-20 00:20:48,122 [INFO] -----------------------------------------------
+2026-11-20 00:22:09,952 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+  headct      NaN       0.0      95.29    94.56 
+ Average      NaN       0.0      95.29    94.56 

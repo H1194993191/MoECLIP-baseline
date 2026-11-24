@@ -1,0 +1,166 @@
+2026-11-19 10:35:48,342 [INFO] args: {'model_name': 'ViT-L-14-336', 'img_size': 518, 'relu': False, 'no_use_paa': True, 'seg_proj_sharing_strategy': 'shared', 'moe_r': 8, 'moe_lora_alpha': 16, 'moe_num_experts': 4, 'moe_top_k': 2, 'moe_layers': '5,11,17,23', 'no_use_fofs': True, 'dataset': 'RSDD', 'shot': 4, 'batch_size': 8, 'seed': 111, 'visual_path': 'ckpt/baseline', 'visualize': False, 'image_adapt_weight': 0.1, 'save_path': 'ckpt/baseline'}
+2026-11-19 10:35:48,343 [INFO] Loading pretrained ViT-L-14-336 from OpenAI.
+2026-11-19 10:35:57,275 [INFO] Resizing position embedding grid-size from (24, 24) to (37, 37)
+2026-11-19 10:35:57,862 [INFO] -----------------------------------------------
+2026-11-19 10:35:57,863 [INFO] dataset: RSDD
+2026-11-19 10:35:57,864 [INFO] -----------------------------------------------
+2026-11-19 10:35:57,864 [INFO] ckpt/baseline\moe_epoch_1.pth
+2026-11-19 10:35:57,914 [INFO] -----------------------------------------------
+2026-11-19 10:35:57,914 [INFO] Successfully loaded model from epoch 1 from ckpt/baseline\moe_epoch_1.pth
+2026-11-19 10:35:57,915 [INFO] -----------------------------------------------
+2026-11-19 10:40:33,980 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.63    32.29     94.47    93.89 
+ Average      99.63    32.29     94.47    93.89 
+2026-11-19 10:40:33,981 [INFO] ckpt/baseline\moe_epoch_2.pth
+2026-11-19 10:40:34,168 [INFO] -----------------------------------------------
+2026-11-19 10:40:34,169 [INFO] Successfully loaded model from epoch 2 from ckpt/baseline\moe_epoch_2.pth
+2026-11-19 10:40:34,169 [INFO] -----------------------------------------------
+2026-11-19 10:45:11,585 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.64    32.89     94.95    94.33 
+ Average      99.64    32.89     94.95    94.33 
+2026-11-19 10:45:11,585 [INFO] ckpt/baseline\moe_epoch_3.pth
+2026-11-19 10:45:11,832 [INFO] -----------------------------------------------
+2026-11-19 10:45:11,832 [INFO] Successfully loaded model from epoch 3 from ckpt/baseline\moe_epoch_3.pth
+2026-11-19 10:45:11,832 [INFO] -----------------------------------------------
+2026-11-19 10:49:47,351 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.64    33.38     95.2     94.53 
+ Average      99.64    33.38     95.2     94.53 
+2026-11-19 10:49:47,351 [INFO] ckpt/baseline\moe_epoch_4.pth
+2026-11-19 10:49:47,576 [INFO] -----------------------------------------------
+2026-11-19 10:49:47,576 [INFO] Successfully loaded model from epoch 4 from ckpt/baseline\moe_epoch_4.pth
+2026-11-19 10:49:47,577 [INFO] -----------------------------------------------
+2026-11-19 10:54:27,141 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.67    33.9      95.23    94.51 
+ Average      99.67    33.9      95.23    94.51 
+2026-11-19 10:54:27,142 [INFO] ckpt/baseline\moe_epoch_5.pth
+2026-11-19 10:54:27,373 [INFO] -----------------------------------------------
+2026-11-19 10:54:27,373 [INFO] Successfully loaded model from epoch 5 from ckpt/baseline\moe_epoch_5.pth
+2026-11-19 10:54:27,374 [INFO] -----------------------------------------------
+2026-11-19 10:59:03,060 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.67    33.62     94.7     93.72 
+ Average      99.67    33.62     94.7     93.72 
+2026-11-19 10:59:03,060 [INFO] ckpt/baseline\moe_epoch_6.pth
+2026-11-19 10:59:03,286 [INFO] -----------------------------------------------
+2026-11-19 10:59:03,286 [INFO] Successfully loaded model from epoch 6 from ckpt/baseline\moe_epoch_6.pth
+2026-11-19 10:59:03,287 [INFO] -----------------------------------------------
+2026-11-19 11:03:40,922 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.68    33.6      95.07    94.15 
+ Average      99.68    33.6      95.07    94.15 
+2026-11-19 11:03:40,922 [INFO] ckpt/baseline\moe_epoch_7.pth
+2026-11-19 11:03:41,144 [INFO] -----------------------------------------------
+2026-11-19 11:03:41,145 [INFO] Successfully loaded model from epoch 7 from ckpt/baseline\moe_epoch_7.pth
+2026-11-19 11:03:41,145 [INFO] -----------------------------------------------
+2026-11-19 11:08:11,549 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.68    34.01     95.1     94.08 
+ Average      99.68    34.01     95.1     94.08 
+2026-11-19 11:08:11,550 [INFO] ckpt/baseline\moe_epoch_8.pth
+2026-11-19 11:08:11,789 [INFO] -----------------------------------------------
+2026-11-19 11:08:11,789 [INFO] Successfully loaded model from epoch 8 from ckpt/baseline\moe_epoch_8.pth
+2026-11-19 11:08:11,789 [INFO] -----------------------------------------------
+2026-11-19 11:12:43,493 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.68    33.69     95.46    94.21 
+ Average      99.68    33.69     95.46    94.21 
+2026-11-19 11:12:43,494 [INFO] ckpt/baseline\moe_epoch_9.pth
+2026-11-19 11:12:43,731 [INFO] -----------------------------------------------
+2026-11-19 11:12:43,732 [INFO] Successfully loaded model from epoch 9 from ckpt/baseline\moe_epoch_9.pth
+2026-11-19 11:12:43,732 [INFO] -----------------------------------------------
+2026-11-19 11:17:35,047 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.68    33.58     93.75    92.2  
+ Average      99.68    33.58     93.75    92.2  
+2026-11-19 11:17:35,048 [INFO] ckpt/baseline\moe_epoch_10.pth
+2026-11-19 11:17:35,272 [INFO] -----------------------------------------------
+2026-11-19 11:17:35,272 [INFO] Successfully loaded model from epoch 10 from ckpt/baseline\moe_epoch_10.pth
+2026-11-19 11:17:35,272 [INFO] -----------------------------------------------
+2026-11-19 11:22:26,086 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.67    33.33     94.62    92.96 
+ Average      99.67    33.33     94.62    92.96 
+2026-11-19 11:22:26,088 [INFO] ckpt/baseline\moe_epoch_11.pth
+2026-11-19 11:22:26,309 [INFO] -----------------------------------------------
+2026-11-19 11:22:26,309 [INFO] Successfully loaded model from epoch 11 from ckpt/baseline\moe_epoch_11.pth
+2026-11-19 11:22:26,312 [INFO] -----------------------------------------------
+2026-11-19 11:27:15,839 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.7     34.33     93.68    92.38 
+ Average      99.7     34.33     93.68    92.38 
+2026-11-19 11:27:15,840 [INFO] ckpt/baseline\moe_epoch_12.pth
+2026-11-19 11:27:16,054 [INFO] -----------------------------------------------
+2026-11-19 11:27:16,054 [INFO] Successfully loaded model from epoch 12 from ckpt/baseline\moe_epoch_12.pth
+2026-11-19 11:27:16,055 [INFO] -----------------------------------------------
+2026-11-19 11:32:06,863 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.7     34.29     94.91    93.98 
+ Average      99.7     34.29     94.91    93.98 
+2026-11-19 11:32:06,863 [INFO] ckpt/baseline\moe_epoch_13.pth
+2026-11-19 11:32:07,071 [INFO] -----------------------------------------------
+2026-11-19 11:32:07,071 [INFO] Successfully loaded model from epoch 13 from ckpt/baseline\moe_epoch_13.pth
+2026-11-19 11:32:07,072 [INFO] -----------------------------------------------
+2026-11-19 11:36:57,281 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.71    34.13     94.99    93.78 
+ Average      99.71    34.13     94.99    93.78 
+2026-11-19 11:36:57,282 [INFO] ckpt/baseline\moe_epoch_14.pth
+2026-11-19 11:36:57,561 [INFO] -----------------------------------------------
+2026-11-19 11:36:57,562 [INFO] Successfully loaded model from epoch 14 from ckpt/baseline\moe_epoch_14.pth
+2026-11-19 11:36:57,562 [INFO] -----------------------------------------------
+2026-11-19 11:41:49,659 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.71    34.48     93.48    91.69 
+ Average      99.71    34.48     93.48    91.69 
+2026-11-19 11:41:49,660 [INFO] ckpt/baseline\moe_epoch_15.pth
+2026-11-19 11:41:49,952 [INFO] -----------------------------------------------
+2026-11-19 11:41:49,953 [INFO] Successfully loaded model from epoch 15 from ckpt/baseline\moe_epoch_15.pth
+2026-11-19 11:41:49,959 [INFO] -----------------------------------------------
+2026-11-19 11:46:40,414 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.7     33.85     94.15    92.49 
+ Average      99.7     33.85     94.15    92.49 
+2026-11-19 11:46:40,414 [INFO] ckpt/baseline\moe_epoch_16.pth
+2026-11-19 11:46:40,654 [INFO] -----------------------------------------------
+2026-11-19 11:46:40,654 [INFO] Successfully loaded model from epoch 16 from ckpt/baseline\moe_epoch_16.pth
+2026-11-19 11:46:40,654 [INFO] -----------------------------------------------
+2026-11-19 11:51:39,932 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.69    33.69     94.26    92.42 
+ Average      99.69    33.69     94.26    92.42 
+2026-11-19 11:51:39,933 [INFO] ckpt/baseline\moe_epoch_17.pth
+2026-11-19 11:51:40,129 [INFO] -----------------------------------------------
+2026-11-19 11:51:40,130 [INFO] Successfully loaded model from epoch 17 from ckpt/baseline\moe_epoch_17.pth
+2026-11-19 11:51:40,131 [INFO] -----------------------------------------------
+2026-11-19 11:56:42,342 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.69    33.66     94.08    92.74 
+ Average      99.69    33.66     94.08    92.74 
+2026-11-19 11:56:42,343 [INFO] ckpt/baseline\moe_epoch_18.pth
+2026-11-19 11:56:42,575 [INFO] -----------------------------------------------
+2026-11-19 11:56:42,576 [INFO] Successfully loaded model from epoch 18 from ckpt/baseline\moe_epoch_18.pth
+2026-11-19 11:56:42,577 [INFO] -----------------------------------------------
+2026-11-19 12:01:41,273 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.68    33.49     94.23    93.09 
+ Average      99.68    33.49     94.23    93.09 
+2026-11-19 12:01:41,274 [INFO] ckpt/baseline\moe_epoch_19.pth
+2026-11-19 12:01:41,512 [INFO] -----------------------------------------------
+2026-11-19 12:01:41,513 [INFO] Successfully loaded model from epoch 19 from ckpt/baseline\moe_epoch_19.pth
+2026-11-19 12:01:41,513 [INFO] -----------------------------------------------
+2026-11-19 12:06:35,234 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.69    33.45     94.68    93.42 
+ Average      99.69    33.45     94.68    93.42 
+2026-11-19 12:06:35,235 [INFO] ckpt/baseline\moe_epoch_20.pth
+2026-11-19 12:06:35,466 [INFO] -----------------------------------------------
+2026-11-19 12:06:35,466 [INFO] Successfully loaded model from epoch 20 from ckpt/baseline\moe_epoch_20.pth
+2026-11-19 12:06:35,467 [INFO] -----------------------------------------------
+2026-11-19 12:11:30,428 [INFO] final results:
+class name pixel AUC pixel AP image AUC image AP
+    RSDD      99.69    33.42     94.31    93.26 
+ Average      99.69    33.42     94.31    93.26 
